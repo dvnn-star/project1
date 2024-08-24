@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>password generator</title>
+    <link rel="stylesheet" href="pass.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <h1>password generator</h1>
+        <p>berikut adalah password generator</p>
+      </div>
+      <div class="generator">
+        <label for="password">
+          <p>silahkan input brp banyak digitnya</p>
+          <input type="number" id="password1" />
+          <button id="btn" onclick="getpass()">generate</button>
+        </label>
+      </div>
+      <div class="generator">
+        <label for="password">
+          <p>berikut adalah passwordnya</p>
+          <input id="password2" disabled />
+        </label>
+      </div>
+    </div>
+    <script src="password.js"></script>
+  </body>
+</html>
